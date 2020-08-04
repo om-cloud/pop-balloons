@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Comfortaa&display=swap');
+
+h1{
+    color: goldenrod;
+    font-family: 'Barlow', sans-serif;
+    font-size: 66px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.balloon{
+    width:15vw;
+    height:15vw;
+    border-radius:50%;
+    position: absolute;
+    bottom: 10vh;
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+.balloon1{
+    background-color: hotpink;
+    margin-left: 14vw;
+}
+.balloon2{
+    background-color: rgb(105, 208, 255);
+    margin-left: 71vw;
+}
+.hide{
+    /* display:none */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+.messagePopsNumber{
+    margin-top: 10vh;
+    color: rgb(218, 69, 32);
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.counter,.Timer{
+    font-family: 'Barlow', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(9, 136, 62);
+    margin-left: 5.3vw;
+}
+.Timer{
+    color: rgb(29, 118, 235);
+}
+.myButton2 {
+    -webkit-box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.11); 
+    box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.11);
+	background:linear-gradient(to bottom, #ffffff 5%, #fafafa 100%);
+	background-color:#ffffff;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+    font-family: 'Barlow', sans-serif;
+	font-size:16px;
+	padding:6px 18px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    margin-left: 3.6vw;
+}
+.myButton2:hover {
+	background:linear-gradient(to bottom, #fafafa 5%, #ffffff 100%);
+    background-color:#fafafa;
+    -webkit-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.11); 
+    box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.11);
+
+}
+.myButton2:active, .myButton2:focus {
+    position:relative;
+    top:1px;
+    outline: none !important;
+
+}
+
+.myButtonRed2 {
+    color:#d13939;
+    border:1px solid #fa7e7e;
+}
+/* .containerBallons{
+    margin-left: 12vw;
+} */
